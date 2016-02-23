@@ -1,0 +1,15 @@
+BUILD_SIGNATURE=1456136049,932
+SIG_METHOD_NAME=C
+META_DEPS=/usr/bin/gcc
+SIGNATURE=1456136049,932
+ARCH=darwin-thread-multi-2level
+IMPLICIT_TARGETS=usdt_tracepoints_x86_64.o
+DEP_SIGS=1452737126,18176yQT/e7YATTZDwj4JPkROag
+SIG_METHOD_IMPLICIT=1
+INCLUDE_SFXS=lib.la.so.sa.a.sl
+CWD=.
+IMPLICIT_DEPS=
+SORTED_DEPS=/usr/bin/gccusdt_tracepoints_x86_64.s
+INCLUDE_PATHS=sys/usr/local/include/usr/includeuser/usr/local/include/usr/include
+COMMAND=gcc -arch x86_64 -o usdt_tracepoints_x86_64.o -c usdt_tracepoints_x86_64.s
+END=

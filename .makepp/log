@@ -1,0 +1,164 @@
+3/usr/local/bin/makepp
+VERSION2.05.18.2darwin-thread-multi-2level
+LOAD140283334508176makefile140283312905512/users/pod/libusdt140283312905512
+TRY140283334508176
+USEdefault rule
+DEPEND140283334508176
+UP_TO_DATE140283334508176
+IFEQDarwinLinux/users/pod/libusdt/makefile:16
+IFEQDarwinSunOS/users/pod/libusdt/makefile:21
+IFEQDarwinFreeBSD/users/pod/libusdt/makefile:38
+IFEQDarwinDarwin/users/pod/libusdt/makefile:50
+IFEQuniversaluniversal/users/pod/libusdt/makefile:52
+IFEQDarwinDarwin/users/pod/libusdt/makefile:81
+IFEQuniversaluniversal/users/pod/libusdt/makefile:82
+IFEQDarwinDarwin/users/pod/libusdt/makefile:128
+IFEQuniversaluniversal/users/pod/libusdt/makefile:129
+IFEQDarwinDarwin/users/pod/libusdt/makefile:143
+IFEQuniversaluniversal/users/pod/libusdt/makefile:144
+LOAD_INCL140283315346880makepp_builtin_rules.mk140283334407016/usr/local/cellar/makepp/2.0/share/makepp140283334508176
+LOAD_END140283334508176
+TRY140283334399624all140283312905512
+USEdefault rule
+DEPEND140283334399624140283315319256libusdt.a140283312905512
+TRY140283315319256
+USE/users/pod/libusdt/makefile:67
+SCAN_INFO140283315319256
+LEX_RULE140283315319256info not cached
+PARSErm -f libusdt.a140283312905512/users/pod/libusdt/makefile:67
+LOAD_DEFAULT140283315376104bin140283334450808/usr/local
+LOAD_INCL140283315346880140283337758064makepp_default_makefile.mk140283334407016
+LOAD_END140283337758064
+TRY140283315954456rm140283315390144/bin
+USEdefault rule
+DEPEND140283315954456
+UP_TO_DATE140283315954456
+PARSEar cru libusdt.a usdt.o usdt_dof_file.o usdt_tracepoints.o usdt_probe.o usdt_dof.o usdt_dof_sections.o 140283312905512/users/pod/libusdt/makefile:67
+TRY140283315376032ar140283315382848/usr/bin
+USEdefault rule
+DEPEND140283315376032
+UP_TO_DATE140283315376032
+PARSEranlib libusdt.a140283312905512/users/pod/libusdt/makefile:67
+TRY140283316005448ranlib140283315382848
+USEdefault rule
+DEPEND140283316005448
+UP_TO_DATE140283316005448
+DEPEND140283315319256140283315376032140283316005448140283315954456140283334533592usdt.h140283312905512140283334533736usdt.o140283312905512140283334534024usdt_dof.o140283312905512140283334534312usdt_dof_file.o140283312905512140283334534600usdt_dof_sections.o140283312905512140283334534744usdt_internal.h140283312905512140283334535032usdt_probe.o140283312905512140283334535176usdt_tracepoints.o140283312905512
+TRY140283334533592
+USEdefault rule
+DEPEND140283334533592
+UP_TO_DATE140283334533592
+TRY140283334533736
+USE/users/pod/libusdt/makefile:63
+SCAN_INFO140283334533736
+LEX_RULE140283334533736info not cached
+*** warning: command parser not found for rule at `/users/pod/libusdt/makefile:63'
+although it seems to be a compilation command.  This means that makepp will
+not detect any include files.  To specify a parser for the whole rule,
+add a :parser modifier line to the rule actions, like this:
+    : parser gcc-compilation	# Scans source for include files.
+or
+    : parser none		# Does not scan, but suppresses warning.
+Or to do it on a per command basis, if you have such obscure commands:
+register-parser my_obscure_cc_wrapper	skip-word
+register-parser my_obscure_cc		c-compilation
+DEPEND140283334533736140283334533448usdt.c140283312905512140283334533592140283334534744
+TRY140283334533448
+USEdefault rule
+DEPEND140283334533448
+UP_TO_DATE140283334533448
+TRY140283334534744
+USEdefault rule
+DEPEND140283334534744
+UP_TO_DATE140283334534744
+BUILD_INVALID140283334533736
+SUCCESS/users/pod/libusdt/makefile:63140283334533736
+TRY140283334534024
+USE/users/pod/libusdt/makefile:63
+SCAN_INFO140283334534024
+LEX_RULE140283334534024info not cached
+DEPEND140283334534024140283334533592140283334533880usdt_dof.c140283312905512140283334534744
+TRY140283334533880
+USEdefault rule
+DEPEND140283334533880
+UP_TO_DATE140283334533880
+BUILD_INVALID140283334534024
+SUCCESS/users/pod/libusdt/makefile:63140283334534024
+TRY140283334534312
+USE/users/pod/libusdt/makefile:63
+SCAN_INFO140283334534312
+LEX_RULE140283334534312info not cached
+DEPEND140283334534312140283334533592140283334534168usdt_dof_file.c140283312905512140283334534744
+TRY140283334534168
+USEdefault rule
+DEPEND140283334534168
+UP_TO_DATE140283334534168
+BUILD_INVALID140283334534312
+SUCCESS/users/pod/libusdt/makefile:63140283334534312
+TRY140283334534600
+USE/users/pod/libusdt/makefile:63
+SCAN_INFO140283334534600
+LEX_RULE140283334534600info not cached
+DEPEND140283334534600140283334533592140283334534456usdt_dof_sections.c140283312905512140283334534744
+TRY140283334534456
+USEdefault rule
+DEPEND140283334534456
+UP_TO_DATE140283334534456
+BUILD_INVALID140283334534600
+SUCCESS/users/pod/libusdt/makefile:63140283334534600
+TRY140283334535032
+USE/users/pod/libusdt/makefile:63
+SCAN_INFO140283334535032
+LEX_RULE140283334535032info not cached
+DEPEND140283334535032140283334533592140283334534744140283334534888usdt_probe.c140283312905512
+TRY140283334534888
+USEdefault rule
+DEPEND140283334534888
+UP_TO_DATE140283334534888
+BUILD_INVALID140283334535032
+SUCCESS/users/pod/libusdt/makefile:63140283334535032
+TRY140283334535176
+USE/users/pod/libusdt/makefile:90
+SCAN_INFO140283334535176
+LEX_RULE140283334535176info not cached
+PARSElipo -create -output usdt_tracepoints.o usdt_tracepoints_i386.o usdt_tracepoints_x86_64.o140283312905512/users/pod/libusdt/makefile:90
+TRY140283334566976lipo140283315382848
+USEdefault rule
+DEPEND140283334566976
+UP_TO_DATE140283334566976
+DEPEND140283334535176140283334566976140283334535320usdt_tracepoints_i386.o140283312905512140283334535608usdt_tracepoints_x86_64.o140283312905512
+TRY140283334535320
+USE/users/pod/libusdt/makefile:84
+SCAN_INFO140283334535320
+LEX_RULE140283334535320info not cached
+PARSEgcc -arch i386 -o usdt_tracepoints_i386.o -c usdt_tracepoints_i386.s140283312905512/users/pod/libusdt/makefile:84
+TRY140283315982968gcc140283315382848
+USEdefault rule
+DEPEND140283315982968
+UP_TO_DATE140283315982968
+DEPEND140283334535320140283315982968140283334535464usdt_tracepoints_i386.s140283312905512
+TRY140283334535464
+USEdefault rule
+DEPEND140283334535464
+UP_TO_DATE140283334535464
+BUILD_INVALID140283334535320
+SUCCESS/users/pod/libusdt/makefile:84140283334535320
+TRY140283334535608
+USE/users/pod/libusdt/makefile:87
+SCAN_INFO140283334535608
+LEX_RULE140283334535608info not cached
+PARSEgcc -arch x86_64 -o usdt_tracepoints_x86_64.o -c usdt_tracepoints_x86_64.s140283312905512/users/pod/libusdt/makefile:87
+DEPEND140283334535608140283315982968140283334535752usdt_tracepoints_x86_64.s140283312905512
+TRY140283334535752
+USEdefault rule
+DEPEND140283334535752
+UP_TO_DATE140283334535752
+BUILD_INVALID140283334535608
+SUCCESS/users/pod/libusdt/makefile:87140283334535608
+BUILD_INVALID140283334535176
+SUCCESS/users/pod/libusdt/makefile:90140283334535176
+BUILD_INVALID140283315319256
+SUCCESS/users/pod/libusdt/makefile:67140283315319256
+SUCCESSdefault rule140283334399624
+*** warning: There is no rule to build inexistent /users/pod/libusdt/all
+N_FILES910
