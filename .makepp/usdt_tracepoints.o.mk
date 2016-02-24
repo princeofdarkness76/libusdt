@@ -1,0 +1,13 @@
+META_DEPS=/usr/local/bin/lipo
+COMMAND=lipo -create -output usdt_tracepoints.o usdt_tracepoints_i386.o usdt_tracepoints_x86_64.o
+SIGNATURE=1456280867,9124
+CWD=.
+INCLUDE_SFXS=
+IMPLICIT_TARGETS=
+INCLUDE_PATHS=
+ARCH=darwin-thread-multi-2level
+BUILD_SIGNATURE=1456280867,9124
+SORTED_DEPS=/usr/local/bin/lipousdt_tracepoints_i386.ousdt_tracepoints_x86_64.o
+IMPLICIT_DEPS=
+DEP_SIGS=1447830937,652321456280867,5481456280867,932
+END=
