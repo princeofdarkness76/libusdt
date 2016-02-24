@@ -1,0 +1,17 @@
+3/usr/local/bin/makepp
+VERSION2.05.18.2darwin-thread-multi-2level
+LOAD140678761491488makefile140678751634744/users/pod/libusdt/perl-devel-dtrace-provider140678751634744
+TRY140678761491488
+USEdefault rule
+DEPEND140678761491488
+UP_TO_DATE140678761491488
+LOAD_REC140678761491488
+*** warning: MAKE redefined at `/users/pod/libusdt/perl-devel-dtrace-provider/makefile:153', recursive make won't work as expected
+RULE_ALT/users/pod/libusdt/perl-devel-dtrace-provider/makefile:354/users/pod/libusdt/perl-devel-dtrace-provider/makefile:342140678748854464av_charptrptr.o140678751634744
+RULE_ALT/users/pod/libusdt/perl-devel-dtrace-provider/makefile:354/users/pod/libusdt/perl-devel-dtrace-provider/makefile:342140678748877056provider.o140678751634744
+RULE_ALT/users/pod/libusdt/perl-devel-dtrace-provider/makefile:366/users/pod/libusdt/perl-devel-dtrace-provider/makefile:354140678748877056
+RULE_SHORTER/users/pod/libusdt/perl-devel-dtrace-provider/makefile:366
+*** /users/pod/libusdt/perl-devel-dtrace-provider/makefile:659: error handling Mpp::makefile_0::s_signature statement
+/users/pod/libusdt/perl-devel-dtrace-provider/makefile:659: invalid signature method :
+
+N_FILES000
